@@ -197,6 +197,11 @@ namespace Project
             ProfileInfo form = new ProfileInfo(list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
             form.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
     }
     
 }

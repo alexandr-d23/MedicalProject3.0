@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace Project
 {
-    public partial class Form1 : Form
+    public partial class Captcha : Form
     {
         private ProfileInfo owner;
         private String text;
-        public Form1(ProfileInfo owner)
+        public Captcha(ProfileInfo owner)
         {
             InitializeComponent();
             this.owner = owner;
@@ -102,12 +102,10 @@ namespace Project
             {
                 MessageBox.Show("Неверно, попробуйте еще раз");
                 pictureBox1.Image = this.Capcha(pictureBox1.Width, pictureBox1.Height);
+                richTextBox1.Text = "";
             }
         }
 
-        private void richTextBox1_TextChanged (Object sender, EventArgs e) 
-        {
-           
-        }
+       
     }
 }
