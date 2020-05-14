@@ -174,6 +174,7 @@
             this.richTextBox22 = new System.Windows.Forms.RichTextBox();
             this.richTextBox23 = new System.Windows.Forms.RichTextBox();
             this.richTextBox24 = new System.Windows.Forms.RichTextBox();
+            this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.SuspendLayout();
             // 
             // label2
@@ -1751,9 +1752,18 @@
             this.richTextBox24.Tag = "CD19+CD5+";
             this.richTextBox24.Text = "";
             // 
+            // vScrollBar1
+            // 
+            this.vScrollBar1.Location = new System.Drawing.Point(1378, 9);
+            this.vScrollBar1.Name = "vScrollBar1";
+            this.vScrollBar1.Size = new System.Drawing.Size(17, 957);
+            this.vScrollBar1.TabIndex = 298;
+            // 
             // InfoAnalys
             // 
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1392, 975);
+            this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.richTextBox14);
             this.Controls.Add(this.richTextBox15);
             this.Controls.Add(this.richTextBox16);
@@ -2053,5 +2063,6 @@
         private System.Windows.Forms.RichTextBox richTextBox22;
         private System.Windows.Forms.RichTextBox richTextBox23;
         private System.Windows.Forms.RichTextBox richTextBox24;
+        private System.Windows.Forms.VScrollBar vScrollBar1;
     }
 }
