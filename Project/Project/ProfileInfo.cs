@@ -413,7 +413,7 @@ namespace Project
 
         private void AnalysInfo_Click(object sender, EventArgs e)
         {
-            InfoAnalys info = new InfoAnalys();
+            InfoAnalys info = new InfoAnalys(patient,patient.list[0]);
             info.Show();
 
         }

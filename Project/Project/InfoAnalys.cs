@@ -14,10 +14,13 @@ namespace Project
 {
     public partial class InfoAnalys : Form
     {
-        public InfoAnalys()
+        Patient patient;
+        Analys analys;
+        public InfoAnalys(Patient patient, Analys analys)
         {
             InitializeComponent();
-
+            this.patient = patient;
+            this.analys = analys;
             //List<string> title = new List<string>();
             //title.AddRange(Analys.titles.Keys);
             //listBox2.Items.AddRange(title);
@@ -25,7 +28,16 @@ namespace Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            foreach(Control control in this.Controls)
+            {
+                if(control is RichTextBox)
+                {
+                    if(!(control.Tag is null))
+                    if (analys.titles.ContainsKey(control.Tag.ToString())){
+                        control.Text = analys.titles[control.Tag.ToString()].ToString();
+                    }
+                }
+            }
         }
 
         private void richTextBox2_TextChanged(object sender, EventArgs e)

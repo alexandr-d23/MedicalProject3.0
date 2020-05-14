@@ -187,7 +187,6 @@
             this.label2.Size = new System.Drawing.Size(230, 32);
             this.label2.TabIndex = 54;
             this.label2.Text = "CD3+CD-19(Тл)";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label11
             // 

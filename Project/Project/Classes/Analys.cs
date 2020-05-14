@@ -7,7 +7,9 @@ namespace Project.Classes
     public class Analys
     {
         public DateTime lastSurvey { get; set; }
+        public Dictionary<string, double> titles { get; set; }
 
+        /*
         public Dictionary<string, double> titles = new Dictionary<string, double>
         {
             {"CD3+CD-19(Тл)", 0},
@@ -44,6 +46,7 @@ namespace Project.Classes
             {"Лимф", 0},
             {"Мон", 0},
         };
+        */
 
         public Analys(DateTime lastSurvey)
         {

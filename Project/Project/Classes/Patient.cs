@@ -9,7 +9,7 @@ namespace Project.Classes
     public class Patient
     {
         Information information;
-        private List<Analys> list;
+        public List<Analys> list;
 
         private Patient()
         {
