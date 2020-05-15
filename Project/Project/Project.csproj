@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Classes\AbstractPatient.cs" />
     <Compile Include="Classes\Analys.cs" />
+    <Compile Include="Classes\ReportElem.cs" />
+    <Compile Include="Classes\Norm.cs" />
     <Compile Include="Classes\Patient.cs" />
     <Compile Include="Classes\Information.cs" />
     <Compile Include="AddPatient.cs">
@@ -62,6 +64,12 @@
     </Compile>
     <Compile Include="Captcha.Designer.cs">
       <DependentUpon>Captcha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="InfoAnalys.cs">
       <SubType>Form</SubType>
@@ -82,7 +90,6 @@
     <Compile Include="Analysis.Designer.cs">
       <DependentUpon>Analysis.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface2.cs" />
     <Compile Include="ProfileInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Captcha.resx">
       <DependentUpon>Captcha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InfoAnalys.resx">
       <DependentUpon>InfoAnalys.cs</DependentUpon>

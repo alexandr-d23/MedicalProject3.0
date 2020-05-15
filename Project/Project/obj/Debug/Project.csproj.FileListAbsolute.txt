@@ -106,3 +106,4 @@ C:\Users\Alex\Desktop\MPDeprecated\MP14.05\Medical-project\Project\Project\obj\D
 C:\Users\Alex\Desktop\MPDeprecated\MP14.05\Medical-project\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Desktop\MPDeprecated\MP14.05\Medical-project\Project\Project\obj\Debug\Project.exe
 C:\Users\Alex\Desktop\MPDeprecated\MP14.05\Medical-project\Project\Project\obj\Debug\Project.pdb
+C:\Users\Alex\Desktop\MPDeprecated\MP14.05\Medical-project\Project\Project\obj\Debug\Project.Form1.resources

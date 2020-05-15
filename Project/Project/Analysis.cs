@@ -51,7 +51,11 @@ namespace Project
                     }
                 }
                 patient.addAnalys(analys);
-                if (owner != null) owner.changeLastSurvey();
+                if (owner != null)
+                {
+                    owner.changeLastSurvey();
+                    owner.reload();
+                }
                 this.Close();
             }
             

@@ -73,7 +73,6 @@ namespace Project
                 return;
             }
             Analysis form = new Analysis(list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
-           
             form.Show();
         }
 
@@ -137,7 +136,6 @@ namespace Project
                 case DialogResult.No:
                     break;
             }
-            
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

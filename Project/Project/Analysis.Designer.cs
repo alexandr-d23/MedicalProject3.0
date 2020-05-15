@@ -54,6 +54,7 @@
             this.label23 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -100,7 +101,6 @@
             this.label82 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -366,6 +366,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1196, 58);
             this.panel1.TabIndex = 51;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(813, 59);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(328, 390);
+            this.groupBox1.TabIndex = 252;
+            this.groupBox1.TabStop = false;
             // 
             // label1
             // 
@@ -832,19 +840,11 @@
             this.label84.TabIndex = 229;
             this.label84.Text = "СOЭ (мм/ч)";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Location = new System.Drawing.Point(813, 59);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(328, 390);
-            this.groupBox1.TabIndex = 252;
-            this.groupBox1.TabStop = false;
-            // 
             // Analysis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1178, 580);
             this.Controls.Add(this.label88);
             this.Controls.Add(this.richTextBox47);

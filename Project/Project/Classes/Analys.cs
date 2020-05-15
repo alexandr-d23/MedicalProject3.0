@@ -10,7 +10,7 @@ namespace Project.Classes
         public Dictionary<string, double> titles { get; set; }
 
         /*
-        public Dictionary<string, double> titles = new Dictionary<string, double>
+        public List<Norm> titles = new Dictionary<string, double>
         {
             {"CD3+CD-19(Тл)", 0},
             {"CD3-CD19+(Вл)", 0},

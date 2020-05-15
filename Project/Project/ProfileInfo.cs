@@ -38,6 +38,7 @@ namespace Project
             maskedTextBox4.Text = info.lastSurvey.ToShortDateString().Equals("01.01.0001") ? "-" : info.lastSurvey.ToShortDateString();
             changes.Clear();
             save.Enabled = false;
+            reload();
         }
 
         private void addAnalysButton_Click(object sender, EventArgs e)
@@ -102,31 +103,16 @@ namespace Project
             }
         }
 
-        /*
-        private bool Check_Correct()
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            bool b = true;
-            foreach (Control c in this.Controls)
+            if (e.RowIndex < 0)
             {
-                if (c is TextBox && string.IsNullOrWhiteSpace(c.Text) || c is MaskedTextBox && !(c as MaskedTextBox).MaskCompleted)
-                {
-                    b = false;
-                    MessageBox.Show("Заполните все поля");
-                    break;
-                }
-                string[] s = maskedTextBox1.Text.Split('.');
-
-                if (Convert.ToInt32(s[2]) < 1900 || 1 > Convert.ToInt32(s[1]) || Convert.ToInt32(s[1]) > 12 || 1 > Convert.ToInt32(s[0]) || Convert.ToInt32(s[0]) > 31)
-                {
-                    b = false;
-                    MessageBox.Show("Поле \"Дата рождения\" заполнено некорректно");
-                    break;
-                }
-
+                dataGridView1.ClearSelection();
+                return;
             }
-            return b;
+            newInfoForm();
         }
-        */
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -380,6 +366,25 @@ namespace Project
             }
         }
 
+        private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            if (dataGridView1.Rows.Count > 0)
+            {
+                Delete.Enabled = true;
+                AnalysInfo.Enabled = true;
+            }
+        }
+
+        private void dataGridView1_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            if (dataGridView1.Rows.Count == 0)
+            {
+                Delete.Enabled = false;
+                AnalysInfo.Enabled = false;
+            }
+
+        }
+
         private void Change(string key, bool val)
         {
             bool enabled = false;
@@ -413,9 +418,53 @@ namespace Project
 
         private void AnalysInfo_Click(object sender, EventArgs e)
         {
-            InfoAnalys info = new InfoAnalys(patient,patient.list[0]);
+            if (dataGridView1.SelectedCells.Count == 0)
+            {
+                MessageBox.Show("Выберите анализ");
+                return;
+            }
+            newInfoForm();
+        }
+
+        private void newInfoForm()
+        {
+            InfoAnalys info = new InfoAnalys(patient, patient.list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
             info.Show();
 
+        }
+
+        public void reload()
+        {
+            dataGridView1.Rows.Clear();
+            int i = 0;
+            foreach (Analys analys in patient.list)
+            {               
+                String lastS = analys.lastSurvey.ToShortDateString().Equals("01.01.0001") ? "-" : analys.lastSurvey.ToShortDateString();
+                dataGridView1.Rows.Add(i,lastS);
+                if (dataGridView1.Rows.Count == 1) dataGridView1.ClearSelection();
+                i++;
+            }
+
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.SelectedCells.Count == 0)
+            {
+                MessageBox.Show("Выберите анализ для удаления");
+                return;
+            }
+            DialogResult dr = MessageBox.Show("Вы уверены,что хотите удалить анализ?",
+                      "Dialog", MessageBoxButtons.YesNo);
+            switch (dr)
+            {
+                case DialogResult.Yes:
+                    patient.list.RemoveAt(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
+                    reload();
+                    break;
+                case DialogResult.No:
+                    break;
+            }
         }
     }
 }
