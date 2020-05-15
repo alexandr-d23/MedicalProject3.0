@@ -34,7 +34,10 @@ namespace Project
                 {
                     if(!(control.Tag is null))
                     if (analys.titles.ContainsKey(control.Tag.ToString())){
-                        control.Text = analys.titles[control.Tag.ToString()].ToString();
+                            if (analys.titles[control.Tag.ToString()] != -1)
+                            {
+                                control.Text = analys.titles[control.Tag.ToString()].ToString();
+                            }
                     }
                 }
             }

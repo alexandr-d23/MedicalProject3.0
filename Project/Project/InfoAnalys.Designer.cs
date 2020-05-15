@@ -129,8 +129,6 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.label88 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
             this.richTextBox47 = new System.Windows.Forms.RichTextBox();
             this.richTextBox48 = new System.Windows.Forms.RichTextBox();
             this.richTextBox49 = new System.Windows.Forms.RichTextBox();
@@ -1237,7 +1235,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(986, 541);
+            this.button1.Location = new System.Drawing.Point(984, 499);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(263, 40);
             this.button1.TabIndex = 229;
@@ -1256,31 +1254,9 @@
             this.label88.Text = "ОАК";
             this.label88.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label87
-            // 
-            this.label87.BackColor = System.Drawing.Color.MintCream;
-            this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label87.Location = new System.Drawing.Point(987, 67);
-            this.label87.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(173, 32);
-            this.label87.TabIndex = 273;
-            this.label87.Text = "Фенотип";
-            // 
-            // label86
-            // 
-            this.label86.BackColor = System.Drawing.Color.AliceBlue;
-            this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label86.Location = new System.Drawing.Point(1168, 67);
-            this.label86.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(211, 32);
-            this.label86.TabIndex = 272;
-            this.label86.Text = "Пациент";
-            // 
             // richTextBox47
             // 
-            this.richTextBox47.Location = new System.Drawing.Point(1168, 467);
+            this.richTextBox47.Location = new System.Drawing.Point(1166, 425);
             this.richTextBox47.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox47.Multiline = false;
             this.richTextBox47.Name = "richTextBox47";
@@ -1291,7 +1267,7 @@
             // 
             // richTextBox48
             // 
-            this.richTextBox48.Location = new System.Drawing.Point(1168, 428);
+            this.richTextBox48.Location = new System.Drawing.Point(1166, 386);
             this.richTextBox48.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox48.Multiline = false;
             this.richTextBox48.Name = "richTextBox48";
@@ -1302,7 +1278,7 @@
             // 
             // richTextBox49
             // 
-            this.richTextBox49.Location = new System.Drawing.Point(1168, 389);
+            this.richTextBox49.Location = new System.Drawing.Point(1166, 347);
             this.richTextBox49.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox49.Multiline = false;
             this.richTextBox49.Name = "richTextBox49";
@@ -1313,7 +1289,7 @@
             // 
             // richTextBox50
             // 
-            this.richTextBox50.Location = new System.Drawing.Point(1168, 349);
+            this.richTextBox50.Location = new System.Drawing.Point(1166, 307);
             this.richTextBox50.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox50.Multiline = false;
             this.richTextBox50.Name = "richTextBox50";
@@ -1324,7 +1300,7 @@
             // 
             // richTextBox51
             // 
-            this.richTextBox51.Location = new System.Drawing.Point(1168, 310);
+            this.richTextBox51.Location = new System.Drawing.Point(1166, 268);
             this.richTextBox51.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox51.Multiline = false;
             this.richTextBox51.Name = "richTextBox51";
@@ -1335,7 +1311,7 @@
             // 
             // richTextBox52
             // 
-            this.richTextBox52.Location = new System.Drawing.Point(1168, 271);
+            this.richTextBox52.Location = new System.Drawing.Point(1166, 229);
             this.richTextBox52.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox52.Multiline = false;
             this.richTextBox52.Name = "richTextBox52";
@@ -1346,7 +1322,7 @@
             // 
             // richTextBox53
             // 
-            this.richTextBox53.Location = new System.Drawing.Point(1168, 231);
+            this.richTextBox53.Location = new System.Drawing.Point(1166, 189);
             this.richTextBox53.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox53.Multiline = false;
             this.richTextBox53.Name = "richTextBox53";
@@ -1357,7 +1333,7 @@
             // 
             // richTextBox54
             // 
-            this.richTextBox54.Location = new System.Drawing.Point(1168, 192);
+            this.richTextBox54.Location = new System.Drawing.Point(1166, 150);
             this.richTextBox54.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox54.Multiline = false;
             this.richTextBox54.Name = "richTextBox54";
@@ -1368,7 +1344,7 @@
             // 
             // richTextBox55
             // 
-            this.richTextBox55.Location = new System.Drawing.Point(1168, 113);
+            this.richTextBox55.Location = new System.Drawing.Point(1166, 71);
             this.richTextBox55.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox55.Multiline = false;
             this.richTextBox55.Name = "richTextBox55";
@@ -1379,7 +1355,7 @@
             // 
             // richTextBox56
             // 
-            this.richTextBox56.Location = new System.Drawing.Point(1168, 152);
+            this.richTextBox56.Location = new System.Drawing.Point(1166, 110);
             this.richTextBox56.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox56.Multiline = false;
             this.richTextBox56.Name = "richTextBox56";
@@ -1392,7 +1368,7 @@
             // 
             this.label75.BackColor = System.Drawing.Color.Ivory;
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label75.Location = new System.Drawing.Point(988, 469);
+            this.label75.Location = new System.Drawing.Point(986, 427);
             this.label75.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label75.Name = "label75";
             this.label75.Size = new System.Drawing.Size(172, 32);
@@ -1403,7 +1379,7 @@
             // 
             this.label76.BackColor = System.Drawing.Color.MintCream;
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label76.Location = new System.Drawing.Point(988, 429);
+            this.label76.Location = new System.Drawing.Point(986, 387);
             this.label76.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(172, 32);
@@ -1414,7 +1390,7 @@
             // 
             this.label77.BackColor = System.Drawing.Color.AliceBlue;
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label77.Location = new System.Drawing.Point(988, 389);
+            this.label77.Location = new System.Drawing.Point(986, 347);
             this.label77.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(172, 32);
@@ -1425,7 +1401,7 @@
             // 
             this.label78.BackColor = System.Drawing.Color.Ivory;
             this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label78.Location = new System.Drawing.Point(988, 351);
+            this.label78.Location = new System.Drawing.Point(986, 309);
             this.label78.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(172, 32);
@@ -1436,7 +1412,7 @@
             // 
             this.label79.BackColor = System.Drawing.Color.MintCream;
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label79.Location = new System.Drawing.Point(988, 309);
+            this.label79.Location = new System.Drawing.Point(986, 267);
             this.label79.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label79.Name = "label79";
             this.label79.Size = new System.Drawing.Size(172, 32);
@@ -1447,7 +1423,7 @@
             // 
             this.label80.BackColor = System.Drawing.Color.AliceBlue;
             this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label80.Location = new System.Drawing.Point(988, 271);
+            this.label80.Location = new System.Drawing.Point(986, 229);
             this.label80.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label80.Name = "label80";
             this.label80.Size = new System.Drawing.Size(172, 32);
@@ -1458,7 +1434,7 @@
             // 
             this.label81.BackColor = System.Drawing.Color.Ivory;
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label81.Location = new System.Drawing.Point(988, 232);
+            this.label81.Location = new System.Drawing.Point(986, 190);
             this.label81.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label81.Name = "label81";
             this.label81.Size = new System.Drawing.Size(172, 32);
@@ -1469,7 +1445,7 @@
             // 
             this.label82.BackColor = System.Drawing.Color.MintCream;
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label82.Location = new System.Drawing.Point(988, 193);
+            this.label82.Location = new System.Drawing.Point(986, 151);
             this.label82.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label82.Name = "label82";
             this.label82.Size = new System.Drawing.Size(172, 32);
@@ -1480,7 +1456,7 @@
             // 
             this.label83.BackColor = System.Drawing.Color.AliceBlue;
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label83.Location = new System.Drawing.Point(988, 152);
+            this.label83.Location = new System.Drawing.Point(986, 110);
             this.label83.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(172, 32);
@@ -1491,7 +1467,7 @@
             // 
             this.label84.BackColor = System.Drawing.Color.Ivory;
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label84.Location = new System.Drawing.Point(988, 110);
+            this.label84.Location = new System.Drawing.Point(986, 68);
             this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(172, 32);
@@ -1787,8 +1763,6 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label88);
-            this.Controls.Add(this.label87);
-            this.Controls.Add(this.label86);
             this.Controls.Add(this.richTextBox47);
             this.Controls.Add(this.richTextBox48);
             this.Controls.Add(this.richTextBox49);
@@ -2017,8 +1991,6 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label88;
-        private System.Windows.Forms.Label label87;
-        private System.Windows.Forms.Label label86;
         private System.Windows.Forms.RichTextBox richTextBox47;
         private System.Windows.Forms.RichTextBox richTextBox48;
         private System.Windows.Forms.RichTextBox richTextBox49;
