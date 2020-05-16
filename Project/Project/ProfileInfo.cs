@@ -13,6 +13,7 @@ namespace Project
 {
     public partial class ProfileInfo : Form
     {
+        private bool saveEnabled;
         Information info;
         Patient patient;
         Dictionary<string, bool> changes;
@@ -37,7 +38,6 @@ namespace Project
             textBox5.Text = info.attachment;
             maskedTextBox4.Text = info.lastSurvey.ToShortDateString().Equals("01.01.0001") ? "-" : info.lastSurvey.ToShortDateString();
             changes.Clear();
-            save.Enabled = false;
             reload();
         }
 
@@ -76,30 +76,37 @@ namespace Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Information info = patient.getInformation();
-            try
+            if (saveEnabled)
             {
-                info.fName = textBox1.Text;
-                info.lName = textBox2.Text;
-                info.patronymic = textBox3.Text;
-                info.gender = comboBox1.Text == "Мужской" ? true : false;
-                String[] b = maskedTextBox1.Text.Split('.');
-                info.birthday = new DateTime(Convert.ToInt32(b[2]), Convert.ToInt32(b[1]), Convert.ToInt32(b[0]));
-                info.sitizenShip = textBox4.Text;
-                info.passportData = maskedTextBox2.Text;
-                info.insurancePolicy = maskedTextBox3.Text;
-                info.attachment = textBox5.Text;
-                if (maskedTextBox4.Text != "  .  .")
+                Information info = patient.getInformation();
+                try
                 {
-                    b = maskedTextBox4.Text.Split('.');
-                    info.lastSurvey = new DateTime(Convert.ToInt32(b[2]), Convert.ToInt32(b[1]), Convert.ToInt32(b[0]));
+                    info.fName = textBox1.Text;
+                    info.lName = textBox2.Text;
+                    info.patronymic = textBox3.Text;
+                    info.gender = comboBox1.Text == "Мужской" ? true : false;
+                    String[] b = maskedTextBox1.Text.Split('.');
+                    info.birthday = new DateTime(Convert.ToInt32(b[2]), Convert.ToInt32(b[1]), Convert.ToInt32(b[0]));
+                    info.sitizenShip = textBox4.Text;
+                    info.passportData = maskedTextBox2.Text;
+                    info.insurancePolicy = maskedTextBox3.Text;
+                    info.attachment = textBox5.Text;
+                    if (maskedTextBox4.Text != "  .  .")
+                    {
+                        b = maskedTextBox4.Text.Split('.');
+                        info.lastSurvey = new DateTime(Convert.ToInt32(b[2]), Convert.ToInt32(b[1]), Convert.ToInt32(b[0]));
+                    }
+                    changes.Clear();
+                   // save.Enabled = false;
                 }
-                changes.Clear();
-                save.Enabled = false;
+                catch
+                {
+                    MessageBox.Show("Поля заполнены некорректно");
+                }
             }
-            catch
+            else
             {
-                MessageBox.Show("Поля заполнены некорректно");
+                MessageBox.Show("Изменения не найдены");
             }
         }
 
@@ -366,6 +373,7 @@ namespace Project
             }
         }
 
+        /*
         private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
@@ -384,6 +392,7 @@ namespace Project
             }
 
         }
+        */
 
         private void Change(string key, bool val)
         {
@@ -408,7 +417,7 @@ namespace Project
                     break;
                 }        
             }
-            save.Enabled = enabled;
+            saveEnabled = enabled;
         }
 
         private void button1_Click_1(object sender, EventArgs e)

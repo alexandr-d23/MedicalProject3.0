@@ -1,0 +1,16 @@
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\bin\Release\Project.exe.config
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\bin\Release\Project.exe
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\bin\Release\Project.pdb
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Analysis.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Captcha.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Report.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.InfoAnalys.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Menu.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Profile.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.ProfileInfo.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.Properties.Resources.resources
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.csproj.GenerateResource.cache
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.exe
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.pdb
+C:\Users\Alex\Desktop\MPDeprecated\MPFinalWithoutHardcode\Project\Project\obj\Release\Project.csprojAssemblyReference.cache

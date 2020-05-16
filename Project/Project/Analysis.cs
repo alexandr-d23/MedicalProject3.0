@@ -19,11 +19,6 @@ namespace Project
         {
             this.patient = patient;
             InitializeComponent();
-            foreach(Control control in this.Controls)
-            {
-                if(control is RichTextBox)
-                control.Text = "19";
-            }
         }
 
         private void Analysis_Load(object sender, EventArgs e)
@@ -94,7 +89,12 @@ namespace Project
             return true;
         }
 
-        
+        private void richTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
 
+            if (Char.IsDigit(e.KeyChar) || e.KeyChar == ',') return;
+            else
+                e.Handled = true;
+        }
     }
 }

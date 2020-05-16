@@ -96,7 +96,7 @@ namespace Project
         }
 
        
-
+        /*
         private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
@@ -106,7 +106,9 @@ namespace Project
                 openProfile.Enabled = true;
             }
         }
+        */
 
+        /*
         private void dataGridView1_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
         {
             if (dataGridView1.Rows.Count == 0)
@@ -117,6 +119,7 @@ namespace Project
             }
 
         }
+        */
 
         private void delete_Click(object sender, EventArgs e)
         {
@@ -200,6 +203,7 @@ namespace Project
         {
             Environment.Exit(0);
         }
+
     }
     
 }

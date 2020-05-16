@@ -1000,10 +1000,10 @@
             // 
             this.label88.BackColor = System.Drawing.Color.Ivory;
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label88.Location = new System.Drawing.Point(993, 14);
+            this.label88.Location = new System.Drawing.Point(998, 14);
             this.label88.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(376, 32);
+            this.label88.Size = new System.Drawing.Size(384, 32);
             this.label88.TabIndex = 274;
             this.label88.Text = "ОАК";
             this.label88.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1015,6 +1015,7 @@
             this.richTextBox47.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox47.Multiline = false;
             this.richTextBox47.Name = "richTextBox47";
+            this.richTextBox47.ReadOnly = true;
             this.richTextBox47.Size = new System.Drawing.Size(203, 32);
             this.richTextBox47.TabIndex = 271;
             this.richTextBox47.Tag = "Мон";
@@ -1027,6 +1028,7 @@
             this.richTextBox48.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox48.Multiline = false;
             this.richTextBox48.Name = "richTextBox48";
+            this.richTextBox48.ReadOnly = true;
             this.richTextBox48.Size = new System.Drawing.Size(203, 32);
             this.richTextBox48.TabIndex = 270;
             this.richTextBox48.Tag = "Лимф";
@@ -1039,6 +1041,7 @@
             this.richTextBox49.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox49.Multiline = false;
             this.richTextBox49.Name = "richTextBox49";
+            this.richTextBox49.ReadOnly = true;
             this.richTextBox49.Size = new System.Drawing.Size(203, 32);
             this.richTextBox49.TabIndex = 269;
             this.richTextBox49.Tag = "Баз";
@@ -1051,6 +1054,7 @@
             this.richTextBox50.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox50.Multiline = false;
             this.richTextBox50.Name = "richTextBox50";
+            this.richTextBox50.ReadOnly = true;
             this.richTextBox50.Size = new System.Drawing.Size(203, 32);
             this.richTextBox50.TabIndex = 268;
             this.richTextBox50.Tag = "Эоз";
@@ -1063,6 +1067,7 @@
             this.richTextBox51.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox51.Multiline = false;
             this.richTextBox51.Name = "richTextBox51";
+            this.richTextBox51.ReadOnly = true;
             this.richTextBox51.Size = new System.Drawing.Size(203, 32);
             this.richTextBox51.TabIndex = 267;
             this.richTextBox51.Tag = " Сег";
@@ -1075,6 +1080,7 @@
             this.richTextBox52.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox52.Multiline = false;
             this.richTextBox52.Name = "richTextBox52";
+            this.richTextBox52.ReadOnly = true;
             this.richTextBox52.Size = new System.Drawing.Size(203, 32);
             this.richTextBox52.TabIndex = 266;
             this.richTextBox52.Tag = "Пал";
@@ -1087,6 +1093,7 @@
             this.richTextBox53.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox53.Multiline = false;
             this.richTextBox53.Name = "richTextBox53";
+            this.richTextBox53.ReadOnly = true;
             this.richTextBox53.Size = new System.Drawing.Size(203, 32);
             this.richTextBox53.TabIndex = 265;
             this.richTextBox53.Tag = "Эритр./мкл";
@@ -1099,6 +1106,7 @@
             this.richTextBox54.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox54.Multiline = false;
             this.richTextBox54.Name = "richTextBox54";
+            this.richTextBox54.ReadOnly = true;
             this.richTextBox54.Size = new System.Drawing.Size(203, 32);
             this.richTextBox54.TabIndex = 264;
             this.richTextBox54.Tag = "Лейкоц./мкл";
@@ -1111,6 +1119,7 @@
             this.richTextBox55.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox55.Multiline = false;
             this.richTextBox55.Name = "richTextBox55";
+            this.richTextBox55.ReadOnly = true;
             this.richTextBox55.Size = new System.Drawing.Size(203, 32);
             this.richTextBox55.TabIndex = 263;
             this.richTextBox55.Tag = "СOЭ (мм/ч)";
@@ -1123,6 +1132,7 @@
             this.richTextBox56.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox56.Multiline = false;
             this.richTextBox56.Name = "richTextBox56";
+            this.richTextBox56.ReadOnly = true;
             this.richTextBox56.Size = new System.Drawing.Size(203, 32);
             this.richTextBox56.TabIndex = 262;
             this.richTextBox56.Tag = "Hb (г/л)";
@@ -1244,6 +1254,7 @@
             this.richTextBox12.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox12.Multiline = false;
             this.richTextBox12.Name = "richTextBox12";
+            this.richTextBox12.ReadOnly = true;
             this.richTextBox12.Size = new System.Drawing.Size(135, 32);
             this.richTextBox12.TabIndex = 286;
             this.richTextBox12.Tag = "3-16+56+(NK)";
@@ -1255,6 +1266,7 @@
             this.richTextBox11.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox11.Multiline = false;
             this.richTextBox11.Name = "richTextBox11";
+            this.richTextBox11.ReadOnly = true;
             this.richTextBox11.Size = new System.Drawing.Size(135, 32);
             this.richTextBox11.TabIndex = 285;
             this.richTextBox11.Tag = "CD8+DR+";
@@ -1266,6 +1278,7 @@
             this.richTextBox10.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox10.Multiline = false;
             this.richTextBox10.Name = "richTextBox10";
+            this.richTextBox10.ReadOnly = true;
             this.richTextBox10.Size = new System.Drawing.Size(135, 32);
             this.richTextBox10.TabIndex = 284;
             this.richTextBox10.Tag = "коэфф. акт. T лимф.";
@@ -1277,6 +1290,7 @@
             this.richTextBox9.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox9.Multiline = false;
             this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(135, 32);
             this.richTextBox9.TabIndex = 283;
             this.richTextBox9.Tag = "CD3+DR-";
@@ -1288,6 +1302,7 @@
             this.richTextBox8.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox8.Multiline = false;
             this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(135, 32);
             this.richTextBox8.TabIndex = 282;
             this.richTextBox8.Tag = "CD3+DR+";
@@ -1299,6 +1314,7 @@
             this.richTextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox7.Multiline = false;
             this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.ReadOnly = true;
             this.richTextBox7.Size = new System.Drawing.Size(135, 32);
             this.richTextBox7.TabIndex = 281;
             this.richTextBox7.Tag = "CD4/CD8 индекс";
@@ -1310,6 +1326,7 @@
             this.richTextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox6.Multiline = false;
             this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.ReadOnly = true;
             this.richTextBox6.Size = new System.Drawing.Size(135, 32);
             this.richTextBox6.TabIndex = 280;
             this.richTextBox6.Tag = "CD4+CD8+";
@@ -1321,6 +1338,7 @@
             this.richTextBox5.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox5.Multiline = false;
             this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.ReadOnly = true;
             this.richTextBox5.Size = new System.Drawing.Size(135, 32);
             this.richTextBox5.TabIndex = 279;
             this.richTextBox5.Tag = "CD3-CD8+";
@@ -1332,6 +1350,7 @@
             this.richTextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox4.Multiline = false;
             this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.ReadOnly = true;
             this.richTextBox4.Size = new System.Drawing.Size(135, 32);
             this.richTextBox4.TabIndex = 278;
             this.richTextBox4.Tag = "CD3+CD8+(Tc)";
@@ -1343,6 +1362,7 @@
             this.richTextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox3.Multiline = false;
             this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
             this.richTextBox3.Size = new System.Drawing.Size(135, 32);
             this.richTextBox3.TabIndex = 277;
             this.richTextBox3.Tag = "CD3+CD4+(Th)";
@@ -1354,6 +1374,7 @@
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox2.Multiline = false;
             this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
             this.richTextBox2.Size = new System.Drawing.Size(135, 32);
             this.richTextBox2.TabIndex = 276;
             this.richTextBox2.Tag = "CD3-CD19+(Вл)";
@@ -1365,6 +1386,7 @@
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Multiline = false;
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(135, 32);
             this.richTextBox1.TabIndex = 275;
             this.richTextBox1.Tag = "CD3+CD-19(Тл)";
@@ -1376,6 +1398,7 @@
             this.richTextBox14.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox14.Multiline = false;
             this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.ReadOnly = true;
             this.richTextBox14.Size = new System.Drawing.Size(135, 32);
             this.richTextBox14.TabIndex = 297;
             this.richTextBox14.Tag = "Общие лимфоциты";
@@ -1387,6 +1410,7 @@
             this.richTextBox15.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox15.Multiline = false;
             this.richTextBox15.Name = "richTextBox15";
+            this.richTextBox15.ReadOnly = true;
             this.richTextBox15.Size = new System.Drawing.Size(135, 32);
             this.richTextBox15.TabIndex = 296;
             this.richTextBox15.Tag = "45+14-(лимф.Регион)";
@@ -1398,6 +1422,7 @@
             this.richTextBox16.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox16.Multiline = false;
             this.richTextBox16.Name = "richTextBox16";
+            this.richTextBox16.ReadOnly = true;
             this.richTextBox16.Size = new System.Drawing.Size(135, 32);
             this.richTextBox16.TabIndex = 295;
             this.richTextBox16.Tag = "CD3+CD4-CD8-y^σ";
@@ -1409,6 +1434,7 @@
             this.richTextBox17.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox17.Multiline = false;
             this.richTextBox17.Name = "richTextBox17";
+            this.richTextBox17.ReadOnly = true;
             this.richTextBox17.Size = new System.Drawing.Size(135, 32);
             this.richTextBox17.TabIndex = 294;
             this.richTextBox17.Tag = "CD3-Cd19-16-56";
@@ -1420,6 +1446,7 @@
             this.richTextBox18.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox18.Multiline = false;
             this.richTextBox18.Name = "richTextBox18";
+            this.richTextBox18.ReadOnly = true;
             this.richTextBox18.Size = new System.Drawing.Size(135, 32);
             this.richTextBox18.TabIndex = 293;
             this.richTextBox18.Tag = "CD14+DR+(мон)";
@@ -1431,6 +1458,7 @@
             this.richTextBox19.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox19.Multiline = false;
             this.richTextBox19.Name = "richTextBox19";
+            this.richTextBox19.ReadOnly = true;
             this.richTextBox19.Size = new System.Drawing.Size(135, 32);
             this.richTextBox19.TabIndex = 292;
             this.richTextBox19.Tag = "CD25+CD4+(спонт)";
@@ -1442,6 +1470,7 @@
             this.richTextBox20.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox20.Multiline = false;
             this.richTextBox20.Name = "richTextBox20";
+            this.richTextBox20.ReadOnly = true;
             this.richTextBox20.Size = new System.Drawing.Size(135, 32);
             this.richTextBox20.TabIndex = 291;
             this.richTextBox20.Tag = "CD62L-CD4+(инд Вл)";
@@ -1453,6 +1482,7 @@
             this.richTextBox21.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox21.Multiline = false;
             this.richTextBox21.Name = "richTextBox21";
+            this.richTextBox21.ReadOnly = true;
             this.richTextBox21.Size = new System.Drawing.Size(135, 32);
             this.richTextBox21.TabIndex = 290;
             this.richTextBox21.Tag = "CD62L+CD4+";
@@ -1464,6 +1494,7 @@
             this.richTextBox22.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox22.Multiline = false;
             this.richTextBox22.Name = "richTextBox22";
+            this.richTextBox22.ReadOnly = true;
             this.richTextBox22.Size = new System.Drawing.Size(135, 32);
             this.richTextBox22.TabIndex = 289;
             this.richTextBox22.Tag = "CD19+CD5-";
@@ -1475,6 +1506,7 @@
             this.richTextBox23.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox23.Multiline = false;
             this.richTextBox23.Name = "richTextBox23";
+            this.richTextBox23.ReadOnly = true;
             this.richTextBox23.Size = new System.Drawing.Size(135, 32);
             this.richTextBox23.TabIndex = 288;
             this.richTextBox23.Tag = "3+16+56+(NK-T)";
@@ -1486,6 +1518,7 @@
             this.richTextBox24.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox24.Multiline = false;
             this.richTextBox24.Name = "richTextBox24";
+            this.richTextBox24.ReadOnly = true;
             this.richTextBox24.Size = new System.Drawing.Size(135, 32);
             this.richTextBox24.TabIndex = 287;
             this.richTextBox24.Tag = "CD19+CD5+";
@@ -1567,6 +1600,7 @@
             this.richTextBox13.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox13.Multiline = false;
             this.richTextBox13.Name = "richTextBox13";
+            this.richTextBox13.ReadOnly = true;
             this.richTextBox13.Size = new System.Drawing.Size(135, 32);
             this.richTextBox13.TabIndex = 293;
             this.richTextBox13.Tag = "CD14+DR+(мон)";
@@ -1574,10 +1608,11 @@
             // 
             // richTextBox25
             // 
-            this.richTextBox25.Location = new System.Drawing.Point(6, 6);
+            this.richTextBox25.Location = new System.Drawing.Point(6, 2);
             this.richTextBox25.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox25.Multiline = false;
             this.richTextBox25.Name = "richTextBox25";
+            this.richTextBox25.ReadOnly = true;
             this.richTextBox25.Size = new System.Drawing.Size(135, 32);
             this.richTextBox25.TabIndex = 275;
             this.richTextBox25.Tag = "CD3+CD-19(Тл)";
@@ -1589,6 +1624,7 @@
             this.richTextBox27.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox27.Multiline = false;
             this.richTextBox27.Name = "richTextBox27";
+            this.richTextBox27.ReadOnly = true;
             this.richTextBox27.Size = new System.Drawing.Size(135, 32);
             this.richTextBox27.TabIndex = 276;
             this.richTextBox27.Tag = "CD3-CD19+(Вл)";
@@ -1600,6 +1636,7 @@
             this.richTextBox28.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox28.Multiline = false;
             this.richTextBox28.Name = "richTextBox28";
+            this.richTextBox28.ReadOnly = true;
             this.richTextBox28.Size = new System.Drawing.Size(135, 32);
             this.richTextBox28.TabIndex = 296;
             this.richTextBox28.Tag = "45+14-(лимф.Регион)";
@@ -1611,6 +1648,7 @@
             this.richTextBox29.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox29.Multiline = false;
             this.richTextBox29.Name = "richTextBox29";
+            this.richTextBox29.ReadOnly = true;
             this.richTextBox29.Size = new System.Drawing.Size(135, 32);
             this.richTextBox29.TabIndex = 277;
             this.richTextBox29.Tag = "CD3+CD4+(Th)";
@@ -1622,6 +1660,7 @@
             this.richTextBox30.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox30.Multiline = false;
             this.richTextBox30.Name = "richTextBox30";
+            this.richTextBox30.ReadOnly = true;
             this.richTextBox30.Size = new System.Drawing.Size(135, 32);
             this.richTextBox30.TabIndex = 295;
             this.richTextBox30.Tag = "CD3+CD4-CD8-y^σ";
@@ -1633,6 +1672,7 @@
             this.richTextBox31.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox31.Multiline = false;
             this.richTextBox31.Name = "richTextBox31";
+            this.richTextBox31.ReadOnly = true;
             this.richTextBox31.Size = new System.Drawing.Size(135, 32);
             this.richTextBox31.TabIndex = 278;
             this.richTextBox31.Tag = "CD3+CD8+(Tc)";
@@ -1644,6 +1684,7 @@
             this.richTextBox32.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox32.Multiline = false;
             this.richTextBox32.Name = "richTextBox32";
+            this.richTextBox32.ReadOnly = true;
             this.richTextBox32.Size = new System.Drawing.Size(135, 32);
             this.richTextBox32.TabIndex = 294;
             this.richTextBox32.Tag = "CD3-Cd19-16-56";
@@ -1655,6 +1696,7 @@
             this.richTextBox33.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox33.Multiline = false;
             this.richTextBox33.Name = "richTextBox33";
+            this.richTextBox33.ReadOnly = true;
             this.richTextBox33.Size = new System.Drawing.Size(135, 32);
             this.richTextBox33.TabIndex = 279;
             this.richTextBox33.Tag = "CD3-CD8+";
@@ -1666,6 +1708,7 @@
             this.richTextBox34.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox34.Multiline = false;
             this.richTextBox34.Name = "richTextBox34";
+            this.richTextBox34.ReadOnly = true;
             this.richTextBox34.Size = new System.Drawing.Size(135, 32);
             this.richTextBox34.TabIndex = 280;
             this.richTextBox34.Tag = "CD4+CD8+";
@@ -1677,6 +1720,7 @@
             this.richTextBox35.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox35.Multiline = false;
             this.richTextBox35.Name = "richTextBox35";
+            this.richTextBox35.ReadOnly = true;
             this.richTextBox35.Size = new System.Drawing.Size(135, 32);
             this.richTextBox35.TabIndex = 292;
             this.richTextBox35.Tag = "CD25+CD4+(спонт)";
@@ -1688,6 +1732,7 @@
             this.richTextBox36.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox36.Multiline = false;
             this.richTextBox36.Name = "richTextBox36";
+            this.richTextBox36.ReadOnly = true;
             this.richTextBox36.Size = new System.Drawing.Size(135, 32);
             this.richTextBox36.TabIndex = 281;
             this.richTextBox36.Tag = "CD4/CD8 индекс";
@@ -1699,6 +1744,7 @@
             this.richTextBox37.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox37.Multiline = false;
             this.richTextBox37.Name = "richTextBox37";
+            this.richTextBox37.ReadOnly = true;
             this.richTextBox37.Size = new System.Drawing.Size(135, 32);
             this.richTextBox37.TabIndex = 291;
             this.richTextBox37.Tag = "CD62L-CD4+(инд Вл)";
@@ -1710,6 +1756,7 @@
             this.richTextBox38.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox38.Multiline = false;
             this.richTextBox38.Name = "richTextBox38";
+            this.richTextBox38.ReadOnly = true;
             this.richTextBox38.Size = new System.Drawing.Size(135, 32);
             this.richTextBox38.TabIndex = 282;
             this.richTextBox38.Tag = "CD3+DR+";
@@ -1721,6 +1768,7 @@
             this.richTextBox39.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox39.Multiline = false;
             this.richTextBox39.Name = "richTextBox39";
+            this.richTextBox39.ReadOnly = true;
             this.richTextBox39.Size = new System.Drawing.Size(135, 32);
             this.richTextBox39.TabIndex = 290;
             this.richTextBox39.Tag = "CD62L+CD4+";
@@ -1732,6 +1780,7 @@
             this.richTextBox40.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox40.Multiline = false;
             this.richTextBox40.Name = "richTextBox40";
+            this.richTextBox40.ReadOnly = true;
             this.richTextBox40.Size = new System.Drawing.Size(135, 32);
             this.richTextBox40.TabIndex = 283;
             this.richTextBox40.Tag = "CD3+DR-";
@@ -1743,6 +1792,7 @@
             this.richTextBox41.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox41.Multiline = false;
             this.richTextBox41.Name = "richTextBox41";
+            this.richTextBox41.ReadOnly = true;
             this.richTextBox41.Size = new System.Drawing.Size(135, 32);
             this.richTextBox41.TabIndex = 289;
             this.richTextBox41.Tag = "CD19+CD5-";
@@ -1754,6 +1804,7 @@
             this.richTextBox42.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox42.Multiline = false;
             this.richTextBox42.Name = "richTextBox42";
+            this.richTextBox42.ReadOnly = true;
             this.richTextBox42.Size = new System.Drawing.Size(135, 32);
             this.richTextBox42.TabIndex = 284;
             this.richTextBox42.Tag = "коэфф. акт. T лимф.";
@@ -1765,6 +1816,7 @@
             this.richTextBox43.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox43.Multiline = false;
             this.richTextBox43.Name = "richTextBox43";
+            this.richTextBox43.ReadOnly = true;
             this.richTextBox43.Size = new System.Drawing.Size(135, 32);
             this.richTextBox43.TabIndex = 288;
             this.richTextBox43.Tag = "3+16+56+(NK-T)";
@@ -1776,6 +1828,7 @@
             this.richTextBox44.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox44.Multiline = false;
             this.richTextBox44.Name = "richTextBox44";
+            this.richTextBox44.ReadOnly = true;
             this.richTextBox44.Size = new System.Drawing.Size(135, 32);
             this.richTextBox44.TabIndex = 285;
             this.richTextBox44.Tag = "CD8+DR+";
@@ -1787,6 +1840,7 @@
             this.richTextBox45.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox45.Multiline = false;
             this.richTextBox45.Name = "richTextBox45";
+            this.richTextBox45.ReadOnly = true;
             this.richTextBox45.Size = new System.Drawing.Size(135, 32);
             this.richTextBox45.TabIndex = 287;
             this.richTextBox45.Tag = "CD19+CD5+";
@@ -1798,6 +1852,7 @@
             this.richTextBox46.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox46.Multiline = false;
             this.richTextBox46.Name = "richTextBox46";
+            this.richTextBox46.ReadOnly = true;
             this.richTextBox46.Size = new System.Drawing.Size(135, 32);
             this.richTextBox46.TabIndex = 286;
             this.richTextBox46.Tag = "3-16+56+(NK)";
@@ -1860,9 +1915,10 @@
             this.maskedTextBox1.BackColor = System.Drawing.Color.White;
             this.maskedTextBox1.BeepOnError = true;
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(1276, 480);
+            this.maskedTextBox1.Location = new System.Drawing.Point(1285, 480);
             this.maskedTextBox1.Mask = "00/00/0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.ReadOnly = true;
             this.maskedTextBox1.Size = new System.Drawing.Size(97, 29);
             this.maskedTextBox1.TabIndex = 304;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
@@ -1974,7 +2030,7 @@
             this.MinimumSize = new System.Drawing.Size(1446, 1014);
             this.Name = "InfoAnalys";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "≤ 5";
+            this.Text = "Детальная информация";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

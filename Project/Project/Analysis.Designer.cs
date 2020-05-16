@@ -106,6 +106,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox1.Location = new System.Drawing.Point(286, 91);
             this.richTextBox1.Multiline = false;
             this.richTextBox1.Name = "richTextBox1";
@@ -113,9 +114,11 @@
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Tag = "CD3+CD-19(Тл)";
             this.richTextBox1.Text = "";
+            this.richTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox2
             // 
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox2.Location = new System.Drawing.Point(286, 123);
             this.richTextBox2.Multiline = false;
             this.richTextBox2.Name = "richTextBox2";
@@ -123,9 +126,11 @@
             this.richTextBox2.TabIndex = 2;
             this.richTextBox2.Tag = "CD3-CD19+(Вл)";
             this.richTextBox2.Text = "";
+            this.richTextBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox3
             // 
+            this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox3.Location = new System.Drawing.Point(286, 155);
             this.richTextBox3.Multiline = false;
             this.richTextBox3.Name = "richTextBox3";
@@ -133,9 +138,11 @@
             this.richTextBox3.TabIndex = 3;
             this.richTextBox3.Tag = "CD3+CD4+(Th)";
             this.richTextBox3.Text = "";
+            this.richTextBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox4
             // 
+            this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox4.Location = new System.Drawing.Point(286, 187);
             this.richTextBox4.Multiline = false;
             this.richTextBox4.Name = "richTextBox4";
@@ -143,9 +150,11 @@
             this.richTextBox4.TabIndex = 4;
             this.richTextBox4.Tag = "CD3+CD8+(Tc)";
             this.richTextBox4.Text = "";
+            this.richTextBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox5
             // 
+            this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox5.Location = new System.Drawing.Point(286, 219);
             this.richTextBox5.Multiline = false;
             this.richTextBox5.Name = "richTextBox5";
@@ -153,9 +162,11 @@
             this.richTextBox5.TabIndex = 5;
             this.richTextBox5.Tag = "CD3-CD8+";
             this.richTextBox5.Text = "";
+            this.richTextBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox6
             // 
+            this.richTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox6.Location = new System.Drawing.Point(286, 251);
             this.richTextBox6.Multiline = false;
             this.richTextBox6.Name = "richTextBox6";
@@ -163,9 +174,11 @@
             this.richTextBox6.TabIndex = 6;
             this.richTextBox6.Tag = "CD4+CD8+";
             this.richTextBox6.Text = "";
+            this.richTextBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox7
             // 
+            this.richTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox7.Location = new System.Drawing.Point(286, 283);
             this.richTextBox7.Multiline = false;
             this.richTextBox7.Name = "richTextBox7";
@@ -173,9 +186,11 @@
             this.richTextBox7.TabIndex = 7;
             this.richTextBox7.Tag = "CD4/CD8 индекс";
             this.richTextBox7.Text = "";
+            this.richTextBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox8
             // 
+            this.richTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox8.Location = new System.Drawing.Point(286, 315);
             this.richTextBox8.Multiline = false;
             this.richTextBox8.Name = "richTextBox8";
@@ -183,9 +198,11 @@
             this.richTextBox8.TabIndex = 8;
             this.richTextBox8.Tag = "CD3+DR+";
             this.richTextBox8.Text = "";
+            this.richTextBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox9
             // 
+            this.richTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox9.Location = new System.Drawing.Point(286, 347);
             this.richTextBox9.Multiline = false;
             this.richTextBox9.Name = "richTextBox9";
@@ -193,9 +210,11 @@
             this.richTextBox9.TabIndex = 9;
             this.richTextBox9.Tag = "CD3+DR-";
             this.richTextBox9.Text = "";
+            this.richTextBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox10
             // 
+            this.richTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox10.Location = new System.Drawing.Point(286, 379);
             this.richTextBox10.Multiline = false;
             this.richTextBox10.Name = "richTextBox10";
@@ -203,9 +222,11 @@
             this.richTextBox10.TabIndex = 10;
             this.richTextBox10.Tag = "коэфф. акт. T лимф.";
             this.richTextBox10.Text = "";
+            this.richTextBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox11
             // 
+            this.richTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox11.Location = new System.Drawing.Point(286, 411);
             this.richTextBox11.Multiline = false;
             this.richTextBox11.Name = "richTextBox11";
@@ -213,9 +234,11 @@
             this.richTextBox11.TabIndex = 11;
             this.richTextBox11.Tag = "CD8+DR+";
             this.richTextBox11.Text = "";
+            this.richTextBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox12
             // 
+            this.richTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox12.Location = new System.Drawing.Point(286, 443);
             this.richTextBox12.Multiline = false;
             this.richTextBox12.Name = "richTextBox12";
@@ -223,9 +246,11 @@
             this.richTextBox12.TabIndex = 12;
             this.richTextBox12.Tag = "3-16+56+(NK)";
             this.richTextBox12.Text = "";
+            this.richTextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox14
             // 
+            this.richTextBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox14.Location = new System.Drawing.Point(686, 411);
             this.richTextBox14.Multiline = false;
             this.richTextBox14.Name = "richTextBox14";
@@ -233,9 +258,11 @@
             this.richTextBox14.TabIndex = 23;
             this.richTextBox14.Tag = "Общие лимфоциты";
             this.richTextBox14.Text = "";
+            this.richTextBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox15
             // 
+            this.richTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox15.Location = new System.Drawing.Point(686, 379);
             this.richTextBox15.Multiline = false;
             this.richTextBox15.Name = "richTextBox15";
@@ -243,9 +270,11 @@
             this.richTextBox15.TabIndex = 22;
             this.richTextBox15.Tag = "45+14-(лимф.Регион)";
             this.richTextBox15.Text = "";
+            this.richTextBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox16
             // 
+            this.richTextBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox16.Location = new System.Drawing.Point(686, 347);
             this.richTextBox16.Multiline = false;
             this.richTextBox16.Name = "richTextBox16";
@@ -253,9 +282,11 @@
             this.richTextBox16.TabIndex = 21;
             this.richTextBox16.Tag = "CD3+CD4-CD8-y^σ";
             this.richTextBox16.Text = "";
+            this.richTextBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox17
             // 
+            this.richTextBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox17.Location = new System.Drawing.Point(686, 315);
             this.richTextBox17.Multiline = false;
             this.richTextBox17.Name = "richTextBox17";
@@ -263,9 +294,11 @@
             this.richTextBox17.TabIndex = 20;
             this.richTextBox17.Tag = "CD3-Cd19-16-56";
             this.richTextBox17.Text = "";
+            this.richTextBox17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox18
             // 
+            this.richTextBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox18.Location = new System.Drawing.Point(686, 283);
             this.richTextBox18.Multiline = false;
             this.richTextBox18.Name = "richTextBox18";
@@ -273,9 +306,11 @@
             this.richTextBox18.TabIndex = 19;
             this.richTextBox18.Tag = "CD14+DR+(мон)";
             this.richTextBox18.Text = "";
+            this.richTextBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox19
             // 
+            this.richTextBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox19.Location = new System.Drawing.Point(686, 251);
             this.richTextBox19.Multiline = false;
             this.richTextBox19.Name = "richTextBox19";
@@ -283,9 +318,11 @@
             this.richTextBox19.TabIndex = 18;
             this.richTextBox19.Tag = "CD25+CD4+(спонт)";
             this.richTextBox19.Text = "";
+            this.richTextBox19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox20
             // 
+            this.richTextBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox20.Location = new System.Drawing.Point(686, 219);
             this.richTextBox20.Multiline = false;
             this.richTextBox20.Name = "richTextBox20";
@@ -293,9 +330,11 @@
             this.richTextBox20.TabIndex = 17;
             this.richTextBox20.Tag = "CD62L-CD4+(инд Вл)";
             this.richTextBox20.Text = "";
+            this.richTextBox20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox21
             // 
+            this.richTextBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox21.Location = new System.Drawing.Point(686, 187);
             this.richTextBox21.Multiline = false;
             this.richTextBox21.Name = "richTextBox21";
@@ -303,9 +342,11 @@
             this.richTextBox21.TabIndex = 16;
             this.richTextBox21.Tag = "CD62L+CD4+";
             this.richTextBox21.Text = "";
+            this.richTextBox21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox22
             // 
+            this.richTextBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox22.Location = new System.Drawing.Point(686, 155);
             this.richTextBox22.Multiline = false;
             this.richTextBox22.Name = "richTextBox22";
@@ -313,9 +354,11 @@
             this.richTextBox22.TabIndex = 15;
             this.richTextBox22.Tag = "CD19+CD5-";
             this.richTextBox22.Text = "";
+            this.richTextBox22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox23
             // 
+            this.richTextBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox23.Location = new System.Drawing.Point(686, 91);
             this.richTextBox23.Multiline = false;
             this.richTextBox23.Name = "richTextBox23";
@@ -323,9 +366,11 @@
             this.richTextBox23.TabIndex = 14;
             this.richTextBox23.Tag = "3+16+56+(NK-T)";
             this.richTextBox23.Text = "";
+            this.richTextBox23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox24
             // 
+            this.richTextBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox24.Location = new System.Drawing.Point(686, 123);
             this.richTextBox24.Multiline = false;
             this.richTextBox24.Name = "richTextBox24";
@@ -333,6 +378,7 @@
             this.richTextBox24.TabIndex = 13;
             this.richTextBox24.Tag = "CD19+CD5+";
             this.richTextBox24.Text = "";
+            this.richTextBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // label23
             // 
@@ -642,6 +688,7 @@
             // 
             // richTextBox47
             // 
+            this.richTextBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox47.Location = new System.Drawing.Point(972, 416);
             this.richTextBox47.Multiline = false;
             this.richTextBox47.Name = "richTextBox47";
@@ -649,9 +696,11 @@
             this.richTextBox47.TabIndex = 248;
             this.richTextBox47.Tag = "Мон";
             this.richTextBox47.Text = "";
+            this.richTextBox47.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox48
             // 
+            this.richTextBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox48.Location = new System.Drawing.Point(972, 385);
             this.richTextBox48.Multiline = false;
             this.richTextBox48.Name = "richTextBox48";
@@ -659,9 +708,11 @@
             this.richTextBox48.TabIndex = 247;
             this.richTextBox48.Tag = "Лимф";
             this.richTextBox48.Text = "";
+            this.richTextBox48.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox49
             // 
+            this.richTextBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox49.Location = new System.Drawing.Point(972, 353);
             this.richTextBox49.Multiline = false;
             this.richTextBox49.Name = "richTextBox49";
@@ -669,9 +720,11 @@
             this.richTextBox49.TabIndex = 246;
             this.richTextBox49.Tag = "Баз";
             this.richTextBox49.Text = "";
+            this.richTextBox49.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox50
             // 
+            this.richTextBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox50.Location = new System.Drawing.Point(972, 320);
             this.richTextBox50.Multiline = false;
             this.richTextBox50.Name = "richTextBox50";
@@ -679,9 +732,11 @@
             this.richTextBox50.TabIndex = 245;
             this.richTextBox50.Tag = "Эоз";
             this.richTextBox50.Text = "";
+            this.richTextBox50.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox51
             // 
+            this.richTextBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox51.Location = new System.Drawing.Point(972, 289);
             this.richTextBox51.Multiline = false;
             this.richTextBox51.Name = "richTextBox51";
@@ -689,9 +744,11 @@
             this.richTextBox51.TabIndex = 244;
             this.richTextBox51.Tag = " Сег";
             this.richTextBox51.Text = "";
+            this.richTextBox51.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox52
             // 
+            this.richTextBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox52.Location = new System.Drawing.Point(972, 257);
             this.richTextBox52.Multiline = false;
             this.richTextBox52.Name = "richTextBox52";
@@ -699,9 +756,11 @@
             this.richTextBox52.TabIndex = 243;
             this.richTextBox52.Tag = "Пал";
             this.richTextBox52.Text = "";
+            this.richTextBox52.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox53
             // 
+            this.richTextBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox53.Location = new System.Drawing.Point(972, 225);
             this.richTextBox53.Multiline = false;
             this.richTextBox53.Name = "richTextBox53";
@@ -709,9 +768,11 @@
             this.richTextBox53.TabIndex = 242;
             this.richTextBox53.Tag = "Эритр./мкл";
             this.richTextBox53.Text = "";
+            this.richTextBox53.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox54
             // 
+            this.richTextBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox54.Location = new System.Drawing.Point(972, 193);
             this.richTextBox54.Multiline = false;
             this.richTextBox54.Name = "richTextBox54";
@@ -719,9 +780,11 @@
             this.richTextBox54.TabIndex = 241;
             this.richTextBox54.Tag = "Лейкоц./мкл";
             this.richTextBox54.Text = "";
+            this.richTextBox54.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox55
             // 
+            this.richTextBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox55.Location = new System.Drawing.Point(972, 129);
             this.richTextBox55.Multiline = false;
             this.richTextBox55.Name = "richTextBox55";
@@ -729,9 +792,11 @@
             this.richTextBox55.TabIndex = 240;
             this.richTextBox55.Tag = "СOЭ (мм/ч)";
             this.richTextBox55.Text = "";
+            this.richTextBox55.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // richTextBox56
             // 
+            this.richTextBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox56.Location = new System.Drawing.Point(972, 160);
             this.richTextBox56.Multiline = false;
             this.richTextBox56.Name = "richTextBox56";
@@ -739,6 +804,7 @@
             this.richTextBox56.TabIndex = 239;
             this.richTextBox56.Tag = "Hb (г/л)";
             this.richTextBox56.Text = "";
+            this.richTextBox56.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.richTextBox1_KeyPress);
             // 
             // label75
             // 
@@ -923,7 +989,7 @@
             this.MinimumSize = new System.Drawing.Size(1194, 619);
             this.Name = "Analysis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Analysis";
+            this.Text = "Добавить анализ";
             this.Load += new System.EventHandler(this.Analysis_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
