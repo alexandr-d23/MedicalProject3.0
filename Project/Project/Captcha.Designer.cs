@@ -40,7 +40,7 @@ namespace Project
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(55, 23);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(242, 84);
             this.pictureBox1.TabIndex = 2;
@@ -51,7 +51,7 @@ namespace Project
             this.richTextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.Location = new System.Drawing.Point(79, 125);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Multiline = false;
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(200, 35);
@@ -96,7 +96,11 @@ namespace Project
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(372, 286);
+            this.MinimumSize = new System.Drawing.Size(372, 286);
             this.Name = "Captcha";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Captcha";

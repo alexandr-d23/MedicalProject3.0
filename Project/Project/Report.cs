@@ -11,11 +11,11 @@ using Project.Classes;
 
 namespace Project
 {
-    public partial class Form1 : Form
+    public partial class Report : Form
     {
         List<ReportElem> list;
 
-        public Form1(List<ReportElem> list)
+        public Report(List<ReportElem> list)
         {
             InitializeComponent();
             this.list = list;

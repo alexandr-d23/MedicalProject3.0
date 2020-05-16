@@ -32,6 +32,7 @@ namespace Project
 
         public void init()
         {
+            maskedTextBox1.Text = patient.getInformation().lastSurvey.ToShortDateString().Equals("01.01.0001") ? "-" : patient.getInformation().lastSurvey.ToShortDateString();
             foreach (Control control in this.Controls)
             {
                 if (control is RichTextBox)
@@ -94,7 +95,7 @@ namespace Project
 
         private void addAnalysis_Click(object sender, EventArgs e)
         {
-            Form1 form = new Form1(dataReport());
+            Report form = new Report(dataReport());
             form.Show();
         }
 

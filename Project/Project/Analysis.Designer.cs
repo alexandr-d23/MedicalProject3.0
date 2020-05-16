@@ -917,7 +917,12 @@
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1194, 619);
+            this.MinimumSize = new System.Drawing.Size(1194, 619);
             this.Name = "Analysis";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Analysis";
             this.Load += new System.EventHandler(this.Analysis_Load);
             this.panel1.ResumeLayout(false);

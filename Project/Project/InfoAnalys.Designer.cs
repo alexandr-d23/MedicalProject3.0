@@ -176,6 +176,8 @@
             this.richTextBox26 = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.addAnalysis = new System.Windows.Forms.Button();
+            this.label85 = new System.Windows.Forms.Label();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -1229,7 +1231,7 @@
             // 
             this.label84.BackColor = System.Drawing.Color.Ivory;
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label84.Location = new System.Drawing.Point(999, 73);
+            this.label84.Location = new System.Drawing.Point(999, 76);
             this.label84.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(172, 32);
@@ -1491,7 +1493,7 @@
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Location = new System.Drawing.Point(1378, 9);
+            this.vScrollBar1.Location = new System.Drawing.Point(1397, 9);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 957);
             this.vScrollBar1.TabIndex = 298;
@@ -1824,7 +1826,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1373, 58);
+            this.panel1.Size = new System.Drawing.Size(1394, 58);
             this.panel1.TabIndex = 301;
             // 
             // addAnalysis
@@ -1832,7 +1834,7 @@
             this.addAnalysis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.addAnalysis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addAnalysis.ForeColor = System.Drawing.Color.LemonChiffon;
-            this.addAnalysis.Location = new System.Drawing.Point(998, 501);
+            this.addAnalysis.Location = new System.Drawing.Point(998, 525);
             this.addAnalysis.Name = "addAnalysis";
             this.addAnalysis.Size = new System.Drawing.Size(158, 35);
             this.addAnalysis.TabIndex = 302;
@@ -1840,10 +1842,37 @@
             this.addAnalysis.UseVisualStyleBackColor = false;
             this.addAnalysis.Click += new System.EventHandler(this.addAnalysis_Click);
             // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label85.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label85.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label85.Location = new System.Drawing.Point(992, 478);
+            this.label85.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(179, 31);
+            this.label85.TabIndex = 303;
+            this.label85.Text = "Дата анализа";
+            // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.BackColor = System.Drawing.Color.White;
+            this.maskedTextBox1.BeepOnError = true;
+            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.maskedTextBox1.Location = new System.Drawing.Point(1276, 480);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(97, 29);
+            this.maskedTextBox1.TabIndex = 304;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
             // InfoAnalys
             // 
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1392, 975);
+            this.ClientSize = new System.Drawing.Size(1430, 975);
+            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.label85);
             this.Controls.Add(this.addAnalysis);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
@@ -1939,13 +1968,19 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(1446, 1014);
+            this.MinimumSize = new System.Drawing.Size(1446, 1014);
             this.Name = "InfoAnalys";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "≤ 5";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2098,5 +2133,7 @@
         private System.Windows.Forms.RichTextBox richTextBox46;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button addAnalysis;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
