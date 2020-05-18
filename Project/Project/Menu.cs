@@ -142,6 +142,7 @@ namespace Project
                     list.RemoveAt(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
                     reload();
                     medicalDB.writeToDatabase(list);
+                    MessageBox.Show("Пациент удалён");
                     break;
                 case DialogResult.No:
                     break;
@@ -211,6 +212,10 @@ namespace Project
             Environment.Exit(0);
         }
 
+        private void Menu_Activated(object sender, EventArgs e)
+        {
+            reload();
+        }
     }
     
 }

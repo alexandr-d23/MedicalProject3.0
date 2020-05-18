@@ -98,8 +98,10 @@ namespace Project
                         b = maskedTextBox4.Text.Split('.');
                         info.lastSurvey = new DateTime(Convert.ToInt32(b[2]), Convert.ToInt32(b[1]), Convert.ToInt32(b[0]));
                     }
+                    medicalDB.writePatientToDatabase(patient);
                     changes.Clear();
-                   // save.Enabled = false;
+                    MessageBox.Show("Изменения сохранены");
+                    // save.Enabled = false;
                 }
                 catch
                 {
@@ -474,7 +476,9 @@ namespace Project
                     patient.list.RemoveAt(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
                     patient.changeLastSurvey();
                     changeLastSurvey();
+                    medicalDB.writePatientToDatabase(patient);
                     reload();
+                    MessageBox.Show("Анализ удалён");
                     break;
                 case DialogResult.No:
                     break;

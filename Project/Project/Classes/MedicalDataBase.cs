@@ -50,6 +50,20 @@ namespace Project.Classes
             }
         }
 
+        public void writePatientToDatabase(Patient patient)
+        {
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                foreach (Analys analys in patient.list)
+                {
+                    analys.convertDictionaryToICollection();
+                    db.Update(analys);
+                }
+                db.Update(patient);
+                db.SaveChanges();
+            }
+        }
+
         public void addAnalysToDatabase(Analys analys, Patient patient)
         {
             using (ApplicationContext db = new ApplicationContext())
