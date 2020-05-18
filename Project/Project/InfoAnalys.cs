@@ -56,7 +56,6 @@ namespace Project
 
             double consta = Convert.ToDouble(richTextBox14.Text) * Convert.ToDouble(richTextBox54.Text) / 100;
             richTextBox26.Text = consta.ToString();
-            int i = 0;
             foreach (Control control in groupBox2.Controls)
             {
                 control.Text = (Val(control.Tag.ToString()) * consta / 100).ToString();

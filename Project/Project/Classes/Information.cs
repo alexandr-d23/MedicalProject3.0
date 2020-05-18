@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace Project.Classes
 {
     public class Information  
-    {   
+    {
+        public int InformationID { get; set; }
         public string fName { get; set; }
         public string lName { get; set; }
         public string patronymic { get; set; }

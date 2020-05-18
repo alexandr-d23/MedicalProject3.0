@@ -17,10 +17,12 @@ namespace Project
         Information info;
         Patient patient;
         Dictionary<string, bool> changes;
+        private MedicalDataBase medicalDB;
         public ProfileInfo(Patient patient)
         {
             InitializeComponent();
             this.patient = patient;
+            medicalDB = new MedicalDataBase();
         }
 
         private void ProfileInfo_Load(object sender, EventArgs e)
@@ -50,7 +52,7 @@ namespace Project
 
         public void changeLastSurvey()
         {
-            if (maskedTextBox4.Text != patient.getInformation().lastSurvey.ToShortDateString()) maskedTextBox4.Text = patient.getInformation().lastSurvey.ToShortDateString();
+            if (maskedTextBox4.Text != info.lastSurvey.ToShortDateString()) maskedTextBox4.Text = info.lastSurvey.ToShortDateString().Equals("01.01.0001") ? "-" : info.lastSurvey.ToShortDateString();
         }
 
         private void show_Click(object sender, EventArgs e)
@@ -468,7 +470,10 @@ namespace Project
             switch (dr)
             {
                 case DialogResult.Yes:
+                    medicalDB.removeAnalys(patient.list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
                     patient.list.RemoveAt(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
+                    patient.changeLastSurvey();
+                    changeLastSurvey();
                     reload();
                     break;
                 case DialogResult.No:

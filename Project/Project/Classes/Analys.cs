@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Project.Classes
 {
     public class Analys
     {
+        public int AnalysID { get; set; }
+        public int PatientID { get; set; }
         public DateTime lastSurvey { get; set; }
+        public virtual ICollection<AnalysTitle> analysTitles { get; set; }
+
+        [NotMapped]
         public Dictionary<string, double> titles { get; set; }
 
         /*
@@ -52,11 +58,34 @@ namespace Project.Classes
         {
             this.lastSurvey = lastSurvey;
             this.titles = new Dictionary<string, double>();
+            this.analysTitles = new List<AnalysTitle>();
         }
 
         public void addTitles(string key, double value)
         {
             titles.Add(key, value);
         }
+
+        public void convertDictionaryToICollection()
+        {
+            foreach(KeyValuePair<string, double> keyValuePair in titles)
+            {
+                analysTitles.Add(new AnalysTitle(AnalysID, keyValuePair.Key, keyValuePair.Value));
+            }
+        }
+
+        public void convertICollectionToDictionary()
+        {
+            foreach(AnalysTitle analysTitle in analysTitles)
+            {
+                if (titles.ContainsKey(analysTitle.key))
+                {
+                    titles[analysTitle.key] = analysTitle.value;
+                } else {
+                    titles.Add(analysTitle.key, analysTitle.value);
+                }
+            }
+        }
+
     }
 }

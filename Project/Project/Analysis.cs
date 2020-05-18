@@ -15,15 +15,22 @@ namespace Project
     {
         public ProfileInfo owner;
         private Patient patient;
+        private MedicalDataBase medicalDB;
         public Analysis(Patient patient)
         {
             this.patient = patient;
             InitializeComponent();
+            medicalDB = new MedicalDataBase();
         }
 
         private void Analysis_Load(object sender, EventArgs e)
         {
-
+            /*
+            foreach(Control c in this.Controls)
+            {
+                if (c is RichTextBox) c.Text = "19";
+            }
+            */
         }
 
         private void label23_Click(object sender, EventArgs e)
@@ -46,6 +53,10 @@ namespace Project
                     }
                 }
                 patient.addAnalys(analys);
+                medicalDB.addAnalysToDatabase(analys, patient);
+                List<Patient> l = new List<Patient>();
+                l.Add(patient);
+                medicalDB.writeToDatabase(l);
                 if (owner != null)
                 {
                     owner.changeLastSurvey();

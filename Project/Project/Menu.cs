@@ -15,11 +15,14 @@ namespace Project
     public partial class Menu : Form
     {
         private List<Patient> list;
+        private MedicalDataBase medicalDB;
 
         public Menu()
         {
             InitializeComponent();
             list = new List<Patient>();
+            medicalDB = new MedicalDataBase();
+            list = medicalDB.readFromDatabase();
         }
 
         public void addPatient(Patient p)
@@ -29,6 +32,7 @@ namespace Project
             dataGridView1.Rows.Add(list.Count,inf.fName,inf.lName,inf.patronymic,inf.sitizenShip,inf.attachment,lastS);
             if(dataGridView1.Rows.Count==1)dataGridView1.ClearSelection();
             list.Add(p);
+            medicalDB.writeToDatabase(list);
             /*
             var l= from inf in list select inf.getInformation();
             dataGridView1.DataSource = from inf in list select (Information)inf.getInformation();
@@ -37,7 +41,7 @@ namespace Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            reload();
         }
 
         private void addPatientButton_Click(object sender, EventArgs e)
@@ -74,6 +78,7 @@ namespace Project
             }
             Analysis form = new Analysis(list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
             form.Show();
+            medicalDB.writeToDatabase(list);
         }
 
         public void reload()
@@ -133,8 +138,10 @@ namespace Project
             switch (dr)
             {
                 case DialogResult.Yes:
+                    medicalDB.removePatient(list[Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value)]);
                     list.RemoveAt(Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value));
                     reload();
+                    medicalDB.writeToDatabase(list);
                     break;
                 case DialogResult.No:
                     break;
