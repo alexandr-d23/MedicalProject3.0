@@ -25,12 +25,13 @@ namespace Project
 
         private void Analysis_Load(object sender, EventArgs e)
         {
-            /*
+           /*
             foreach(Control c in this.Controls)
             {
                 if (c is RichTextBox) c.Text = "19";
             }
             */
+            
         }
 
         private void label23_Click(object sender, EventArgs e)

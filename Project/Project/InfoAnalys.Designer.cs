@@ -1010,6 +1010,7 @@
             // 
             // richTextBox47
             // 
+            this.richTextBox47.BackColor = System.Drawing.Color.White;
             this.richTextBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox47.Location = new System.Drawing.Point(1179, 430);
             this.richTextBox47.Margin = new System.Windows.Forms.Padding(4);
@@ -1023,6 +1024,7 @@
             // 
             // richTextBox48
             // 
+            this.richTextBox48.BackColor = System.Drawing.Color.White;
             this.richTextBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox48.Location = new System.Drawing.Point(1179, 391);
             this.richTextBox48.Margin = new System.Windows.Forms.Padding(4);
@@ -1036,6 +1038,7 @@
             // 
             // richTextBox49
             // 
+            this.richTextBox49.BackColor = System.Drawing.Color.White;
             this.richTextBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox49.Location = new System.Drawing.Point(1179, 352);
             this.richTextBox49.Margin = new System.Windows.Forms.Padding(4);
@@ -1049,6 +1052,7 @@
             // 
             // richTextBox50
             // 
+            this.richTextBox50.BackColor = System.Drawing.Color.White;
             this.richTextBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox50.Location = new System.Drawing.Point(1179, 312);
             this.richTextBox50.Margin = new System.Windows.Forms.Padding(4);
@@ -1062,6 +1066,7 @@
             // 
             // richTextBox51
             // 
+            this.richTextBox51.BackColor = System.Drawing.Color.White;
             this.richTextBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox51.Location = new System.Drawing.Point(1179, 273);
             this.richTextBox51.Margin = new System.Windows.Forms.Padding(4);
@@ -1075,6 +1080,7 @@
             // 
             // richTextBox52
             // 
+            this.richTextBox52.BackColor = System.Drawing.Color.White;
             this.richTextBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox52.Location = new System.Drawing.Point(1179, 234);
             this.richTextBox52.Margin = new System.Windows.Forms.Padding(4);
@@ -1088,6 +1094,7 @@
             // 
             // richTextBox53
             // 
+            this.richTextBox53.BackColor = System.Drawing.Color.White;
             this.richTextBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox53.Location = new System.Drawing.Point(1179, 194);
             this.richTextBox53.Margin = new System.Windows.Forms.Padding(4);
@@ -1101,6 +1108,7 @@
             // 
             // richTextBox54
             // 
+            this.richTextBox54.BackColor = System.Drawing.Color.White;
             this.richTextBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox54.Location = new System.Drawing.Point(1179, 155);
             this.richTextBox54.Margin = new System.Windows.Forms.Padding(4);
@@ -1114,6 +1122,7 @@
             // 
             // richTextBox55
             // 
+            this.richTextBox55.BackColor = System.Drawing.Color.White;
             this.richTextBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox55.Location = new System.Drawing.Point(1179, 76);
             this.richTextBox55.Margin = new System.Windows.Forms.Padding(4);
@@ -1127,6 +1136,7 @@
             // 
             // richTextBox56
             // 
+            this.richTextBox56.BackColor = System.Drawing.Color.White;
             this.richTextBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox56.Location = new System.Drawing.Point(1179, 115);
             this.richTextBox56.Margin = new System.Windows.Forms.Padding(4);
@@ -1250,6 +1260,7 @@
             // 
             // richTextBox12
             // 
+            this.richTextBox12.BackColor = System.Drawing.Color.White;
             this.richTextBox12.Location = new System.Drawing.Point(6, 445);
             this.richTextBox12.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox12.Multiline = false;
@@ -1262,6 +1273,7 @@
             // 
             // richTextBox11
             // 
+            this.richTextBox11.BackColor = System.Drawing.Color.White;
             this.richTextBox11.Location = new System.Drawing.Point(6, 406);
             this.richTextBox11.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox11.Multiline = false;
@@ -1274,6 +1286,7 @@
             // 
             // richTextBox10
             // 
+            this.richTextBox10.BackColor = System.Drawing.Color.White;
             this.richTextBox10.Location = new System.Drawing.Point(6, 368);
             this.richTextBox10.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox10.Multiline = false;
@@ -1286,6 +1299,7 @@
             // 
             // richTextBox9
             // 
+            this.richTextBox9.BackColor = System.Drawing.Color.White;
             this.richTextBox9.Location = new System.Drawing.Point(6, 328);
             this.richTextBox9.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox9.Multiline = false;
@@ -1298,6 +1312,7 @@
             // 
             // richTextBox8
             // 
+            this.richTextBox8.BackColor = System.Drawing.Color.White;
             this.richTextBox8.Location = new System.Drawing.Point(7, 288);
             this.richTextBox8.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox8.Multiline = false;
@@ -1310,6 +1325,7 @@
             // 
             // richTextBox7
             // 
+            this.richTextBox7.BackColor = System.Drawing.Color.White;
             this.richTextBox7.Location = new System.Drawing.Point(6, 250);
             this.richTextBox7.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox7.Multiline = false;
@@ -1322,6 +1338,7 @@
             // 
             // richTextBox6
             // 
+            this.richTextBox6.BackColor = System.Drawing.Color.White;
             this.richTextBox6.Location = new System.Drawing.Point(6, 208);
             this.richTextBox6.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox6.Multiline = false;
@@ -1334,6 +1351,7 @@
             // 
             // richTextBox5
             // 
+            this.richTextBox5.BackColor = System.Drawing.Color.White;
             this.richTextBox5.Location = new System.Drawing.Point(6, 170);
             this.richTextBox5.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox5.Multiline = false;
@@ -1346,6 +1364,7 @@
             // 
             // richTextBox4
             // 
+            this.richTextBox4.BackColor = System.Drawing.Color.White;
             this.richTextBox4.Location = new System.Drawing.Point(6, 131);
             this.richTextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox4.Multiline = false;
@@ -1358,6 +1377,7 @@
             // 
             // richTextBox3
             // 
+            this.richTextBox3.BackColor = System.Drawing.Color.White;
             this.richTextBox3.Location = new System.Drawing.Point(6, 92);
             this.richTextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox3.Multiline = false;
@@ -1370,6 +1390,7 @@
             // 
             // richTextBox2
             // 
+            this.richTextBox2.BackColor = System.Drawing.Color.White;
             this.richTextBox2.Location = new System.Drawing.Point(7, 51);
             this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox2.Multiline = false;
@@ -1382,6 +1403,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(6, 9);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Multiline = false;
@@ -1394,6 +1416,7 @@
             // 
             // richTextBox14
             // 
+            this.richTextBox14.BackColor = System.Drawing.Color.White;
             this.richTextBox14.Location = new System.Drawing.Point(7, 869);
             this.richTextBox14.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox14.Multiline = false;
@@ -1406,6 +1429,7 @@
             // 
             // richTextBox15
             // 
+            this.richTextBox15.BackColor = System.Drawing.Color.White;
             this.richTextBox15.Location = new System.Drawing.Point(7, 831);
             this.richTextBox15.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox15.Multiline = false;
@@ -1442,6 +1466,7 @@
             // 
             // richTextBox18
             // 
+            this.richTextBox18.BackColor = System.Drawing.Color.White;
             this.richTextBox18.Location = new System.Drawing.Point(6, 720);
             this.richTextBox18.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox18.Multiline = false;
@@ -1454,6 +1479,7 @@
             // 
             // richTextBox19
             // 
+            this.richTextBox19.BackColor = System.Drawing.Color.White;
             this.richTextBox19.Location = new System.Drawing.Point(6, 680);
             this.richTextBox19.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox19.Multiline = false;
@@ -1466,6 +1492,7 @@
             // 
             // richTextBox20
             // 
+            this.richTextBox20.BackColor = System.Drawing.Color.White;
             this.richTextBox20.Location = new System.Drawing.Point(6, 640);
             this.richTextBox20.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox20.Multiline = false;
@@ -1478,6 +1505,7 @@
             // 
             // richTextBox21
             // 
+            this.richTextBox21.BackColor = System.Drawing.Color.White;
             this.richTextBox21.Location = new System.Drawing.Point(6, 603);
             this.richTextBox21.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox21.Multiline = false;
@@ -1490,6 +1518,7 @@
             // 
             // richTextBox22
             // 
+            this.richTextBox22.BackColor = System.Drawing.Color.White;
             this.richTextBox22.Location = new System.Drawing.Point(7, 564);
             this.richTextBox22.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox22.Multiline = false;
@@ -1502,6 +1531,7 @@
             // 
             // richTextBox23
             // 
+            this.richTextBox23.BackColor = System.Drawing.Color.White;
             this.richTextBox23.Location = new System.Drawing.Point(6, 485);
             this.richTextBox23.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox23.Multiline = false;
@@ -1514,6 +1544,7 @@
             // 
             // richTextBox24
             // 
+            this.richTextBox24.BackColor = System.Drawing.Color.White;
             this.richTextBox24.Location = new System.Drawing.Point(6, 525);
             this.richTextBox24.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox24.Multiline = false;
@@ -1565,6 +1596,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Controls.Add(this.richTextBox13);
             this.groupBox2.Controls.Add(this.richTextBox25);
             this.groupBox2.Controls.Add(this.richTextBox27);
@@ -1588,7 +1620,7 @@
             this.groupBox2.Controls.Add(this.richTextBox45);
             this.groupBox2.Controls.Add(this.richTextBox46);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.groupBox2.Location = new System.Drawing.Point(831, 67);
+            this.groupBox2.Location = new System.Drawing.Point(837, 64);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(148, 859);
             this.groupBox2.TabIndex = 300;
@@ -1596,6 +1628,7 @@
             // 
             // richTextBox13
             // 
+            this.richTextBox13.BackColor = System.Drawing.Color.White;
             this.richTextBox13.Location = new System.Drawing.Point(6, 715);
             this.richTextBox13.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox13.Multiline = false;
@@ -1608,11 +1641,11 @@
             // 
             // richTextBox25
             // 
-            this.richTextBox25.Location = new System.Drawing.Point(6, 2);
+            this.richTextBox25.BackColor = System.Drawing.Color.White;
+            this.richTextBox25.Location = new System.Drawing.Point(6, 6);
             this.richTextBox25.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox25.Multiline = false;
             this.richTextBox25.Name = "richTextBox25";
-            this.richTextBox25.ReadOnly = true;
             this.richTextBox25.Size = new System.Drawing.Size(135, 32);
             this.richTextBox25.TabIndex = 275;
             this.richTextBox25.Tag = "CD3+CD-19(Тл)";
@@ -1620,6 +1653,7 @@
             // 
             // richTextBox27
             // 
+            this.richTextBox27.BackColor = System.Drawing.Color.White;
             this.richTextBox27.Location = new System.Drawing.Point(6, 46);
             this.richTextBox27.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox27.Multiline = false;
@@ -1632,6 +1666,7 @@
             // 
             // richTextBox28
             // 
+            this.richTextBox28.BackColor = System.Drawing.Color.White;
             this.richTextBox28.Location = new System.Drawing.Point(6, 826);
             this.richTextBox28.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox28.Multiline = false;
@@ -1644,6 +1679,7 @@
             // 
             // richTextBox29
             // 
+            this.richTextBox29.BackColor = System.Drawing.Color.White;
             this.richTextBox29.Location = new System.Drawing.Point(6, 83);
             this.richTextBox29.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox29.Multiline = false;
@@ -1656,6 +1692,7 @@
             // 
             // richTextBox30
             // 
+            this.richTextBox30.BackColor = System.Drawing.Color.White;
             this.richTextBox30.Location = new System.Drawing.Point(6, 787);
             this.richTextBox30.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox30.Multiline = false;
@@ -1668,6 +1705,7 @@
             // 
             // richTextBox31
             // 
+            this.richTextBox31.BackColor = System.Drawing.Color.White;
             this.richTextBox31.Location = new System.Drawing.Point(6, 122);
             this.richTextBox31.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox31.Multiline = false;
@@ -1680,6 +1718,7 @@
             // 
             // richTextBox32
             // 
+            this.richTextBox32.BackColor = System.Drawing.Color.White;
             this.richTextBox32.Location = new System.Drawing.Point(6, 753);
             this.richTextBox32.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox32.Multiline = false;
@@ -1692,6 +1731,7 @@
             // 
             // richTextBox33
             // 
+            this.richTextBox33.BackColor = System.Drawing.Color.White;
             this.richTextBox33.Location = new System.Drawing.Point(6, 162);
             this.richTextBox33.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox33.Multiline = false;
@@ -1704,6 +1744,7 @@
             // 
             // richTextBox34
             // 
+            this.richTextBox34.BackColor = System.Drawing.Color.White;
             this.richTextBox34.Location = new System.Drawing.Point(6, 203);
             this.richTextBox34.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox34.Multiline = false;
@@ -1716,6 +1757,7 @@
             // 
             // richTextBox35
             // 
+            this.richTextBox35.BackColor = System.Drawing.Color.White;
             this.richTextBox35.Location = new System.Drawing.Point(6, 676);
             this.richTextBox35.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox35.Multiline = false;
@@ -1728,6 +1770,7 @@
             // 
             // richTextBox36
             // 
+            this.richTextBox36.BackColor = System.Drawing.Color.White;
             this.richTextBox36.Location = new System.Drawing.Point(6, 245);
             this.richTextBox36.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox36.Multiline = false;
@@ -1740,6 +1783,7 @@
             // 
             // richTextBox37
             // 
+            this.richTextBox37.BackColor = System.Drawing.Color.White;
             this.richTextBox37.Location = new System.Drawing.Point(6, 640);
             this.richTextBox37.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox37.Multiline = false;
@@ -1752,6 +1796,7 @@
             // 
             // richTextBox38
             // 
+            this.richTextBox38.BackColor = System.Drawing.Color.White;
             this.richTextBox38.Location = new System.Drawing.Point(6, 282);
             this.richTextBox38.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox38.Multiline = false;
@@ -1764,6 +1809,7 @@
             // 
             // richTextBox39
             // 
+            this.richTextBox39.BackColor = System.Drawing.Color.White;
             this.richTextBox39.Location = new System.Drawing.Point(6, 600);
             this.richTextBox39.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox39.Multiline = false;
@@ -1776,6 +1822,7 @@
             // 
             // richTextBox40
             // 
+            this.richTextBox40.BackColor = System.Drawing.Color.White;
             this.richTextBox40.Location = new System.Drawing.Point(6, 322);
             this.richTextBox40.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox40.Multiline = false;
@@ -1788,6 +1835,7 @@
             // 
             // richTextBox41
             // 
+            this.richTextBox41.BackColor = System.Drawing.Color.White;
             this.richTextBox41.Location = new System.Drawing.Point(6, 561);
             this.richTextBox41.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox41.Multiline = false;
@@ -1800,6 +1848,7 @@
             // 
             // richTextBox42
             // 
+            this.richTextBox42.BackColor = System.Drawing.Color.White;
             this.richTextBox42.Location = new System.Drawing.Point(6, 363);
             this.richTextBox42.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox42.Multiline = false;
@@ -1812,6 +1861,7 @@
             // 
             // richTextBox43
             // 
+            this.richTextBox43.BackColor = System.Drawing.Color.White;
             this.richTextBox43.Location = new System.Drawing.Point(6, 482);
             this.richTextBox43.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox43.Multiline = false;
@@ -1824,6 +1874,7 @@
             // 
             // richTextBox44
             // 
+            this.richTextBox44.BackColor = System.Drawing.Color.White;
             this.richTextBox44.Location = new System.Drawing.Point(6, 401);
             this.richTextBox44.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox44.Multiline = false;
@@ -1836,6 +1887,7 @@
             // 
             // richTextBox45
             // 
+            this.richTextBox45.BackColor = System.Drawing.Color.White;
             this.richTextBox45.Location = new System.Drawing.Point(6, 521);
             this.richTextBox45.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox45.Multiline = false;
@@ -1848,6 +1900,7 @@
             // 
             // richTextBox46
             // 
+            this.richTextBox46.BackColor = System.Drawing.Color.White;
             this.richTextBox46.Location = new System.Drawing.Point(6, 440);
             this.richTextBox46.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox46.Multiline = false;
@@ -1861,7 +1914,7 @@
             // richTextBox26
             // 
             this.richTextBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox26.Location = new System.Drawing.Point(837, 931);
+            this.richTextBox26.Location = new System.Drawing.Point(843, 929);
             this.richTextBox26.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox26.Multiline = false;
             this.richTextBox26.Name = "richTextBox26";
@@ -1926,6 +1979,7 @@
             // InfoAnalys
             // 
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1430, 975);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.label85);
